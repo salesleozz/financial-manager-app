@@ -1,16 +1,52 @@
-# React + Vite
+# 💸 Financial Manager App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Licença](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Framework](https://img.shields.io/badge/Framework-React-61DAFB?logo=react)](https://react.dev/)
+[![Build Tool](https://img.shields.io/badge/Tool-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Linguagem Principal](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-Currently, two official plugins are available:
+## 🌟 Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **Financial Manager App** é a interface de usuário (Frontend) para a aplicação de gestão financeira.
 
-## React Compiler
+Desenvolvido para ser intuitivo e responsivo, ele permite que os usuários interajam com a [**Financial Manager API**](https://github.com/salesleozz/financial-manager-api) para gerenciar suas finanças pessoais ou empresariais.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo é fornecer uma visualização clara do saldo, um registro fácil de transações e relatórios gráficos para auxiliar na tomada de decisões financeiras.
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Autenticação de Usuário:** Telas de Login e Cadastro (integração com JWT da API).
+* **Dashboard Interativo:** Visão geral do saldo atual, últimas transações e gráficos.
+* **Gerenciamento de Transações:** Formulários para adicionar, editar e remover receitas e despesas.
+* **Visualização de Extrato:** Filtros por conta, categoria e período.
+* **Responsividade:** Design otimizado para desktop e dispositivos móveis.
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído com as seguintes tecnologias:
+
+| Categoria | Tecnologia |
+| :--- | :--- |
+| **Framework** | React |
+| **Build Tool** | Vite |
+| **Linguagem** | JavaScript (ou TypeScript, se for o caso) |
+| **Gerenciamento de Estado** | Context API / Redux / Zustand (substitua pelo que você usa) |
+| **Estilização** | CSS Puro / Tailwind CSS / Styled Components (substitua pelo que você usa) |
+| **Requisições HTTP** | Axios / Fetch API |
+
+## ⚙️ Pré-requisitos
+
+Para executar o projeto localmente, você precisará ter instalado:
+
+* **Node.js e npm (ou Yarn/pnpm):** Versão 16+
+* A **[Financial Manager API](https://github.com/salesleozz/financial-manager-api)** deve estar em execução (padrão: `http://localhost:8080`).
+
+## 🚀 Instalação e Execução
+
+Siga os passos abaixo para configurar e rodar o frontend:
+
+### 1. Clone o Repositório
+
+```bash
+git clone [https://github.com/salesleozz/financial-manager-app.git](https://github.com/salesleozz/financial-manager-app.git)
+cd financial-manager-app
