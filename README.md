@@ -41,12 +41,3 @@ Para executar o projeto localmente, você precisará ter instalado:
 * **Node.js e npm (ou Yarn/pnpm):** Versão 16+
 * A **[Financial Manager API](https://github.com/salesleozz/financial-manager-api)** deve estar em execução (padrão: `http://localhost:8080`).
 
-## 🚀 Instalação e Execução
-
-Siga os passos abaixo para configurar e rodar o frontend:
-
-### 1. Clone o Repositório
-
-```bash
-git clone [https://github.com/salesleozz/financial-manager-app.git](https://github.com/salesleozz/financial-manager-app.git)
-cd financial-manager-app
